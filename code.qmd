@@ -3,7 +3,7 @@ title: "R"
 editor: visual
 ---
 
-## ![](img/sticker_sotr.png){width="100"} State of the R
+## ![](img/sticker_sotr.png){width="100"} 
 
 [StateoftheR](https://stateofther.netlify.app/) is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio.
 

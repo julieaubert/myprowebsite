@@ -7,9 +7,9 @@ My research and teaching activities concern the development and application of s
 
 **Statistical Methods in Molecular Biology**
 
-\- Design, normalisation and analysis of gene expression experiments based on DNA microarray.
-
 \- Design and analysis of high-throughput gene expression experiments based on next-generation sequencing: mRNA-Seq for transcriptome analysis.
+
+Application in cheese metatranscriptome, sea urchin transcriptome
 
 \- Comparative Metagenomics based on next-generation sequencing data.
 
@@ -24,8 +24,9 @@ Application to microbial ecology, plant-microbial communities interactions in th
 ## Current funded projects
 
 ### ANR EcoNet
-[EcoNet](https://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html)
-(2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)
 
-### ANR project NGB 
-(2018–2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)
+[EcoNet](https://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html) (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)
+
+### ANR project NGB
+
+(2018--2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)
