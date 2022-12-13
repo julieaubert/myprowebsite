@@ -1,0 +1,43 @@
+project:
+  type: website
+
+website:
+  title: "Julie Aubert"
+  navbar:
+    logo: img/LogoINRAE-MIA.jpg
+    left:
+      - href: index.qmd
+        text: Home
+      - href: code.qmd
+        text: "R packages"
+        icon: fab fa-r-project
+      - publis.qmd
+      - research.qmd
+      - href: students.qmd
+        icon: fa-graduation-cap
+      - href: teaching.qmd
+        icon: fa-laptop
+    right:
+      - text : "On the web"
+        menu: 
+          - href: https://github.com/julieaubert
+            icon: fab fa-github
+            text: "Github"
+          - href: https://orcid.org/0000-0001-5203-5748
+            text: "Orcid"
+            icon: fas fa-book-open
+          - text: "Hal"
+            icon:  fas fa-book-open
+            href: https://hal.inrae.fr/search/index/q/*/authIdHal_s/julie-aubert
+  page-footer:
+    left: "© Copyright 2022 Julie Aubert. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0."  
+format:
+  html:
+    theme: sandstone
+    css: styles.css
+    toc: true
+execute:
+  freeze: auto
+
+editor: visual
+

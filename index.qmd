@@ -1,0 +1,33 @@
+---
+title: "Julie Aubert"
+image: img/julie.jpg
+about:
+  template: trestles
+  links:
+    - text: GitHub
+      icon: github
+      url: "https://github.com/julieaubert"
+    - text: Email
+      url: "mailto:julie.aubert@inrae.fr"
+comments: false
+---
+
+## Bio
+
+[INRAE](https://www.inrae.fr/) Research in Statistical Learning \@ [MIA Paris Saclay](https://mia-ps.inrae.fr/) in the [SOLsTIS](https://mia-ps.inrae.fr/solstis)(Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.
+
+-   Co-head of the [StatOmique](https://statomique.netlify.app/about/) group
+
+-   Member of the INRAE CATI [**B**ioinformatics for **O**mics and meta**O**mics of **M**icrobes](https://cati-boom-public.pages.mia.inra.fr/site-officiel/)
+
+-   Co-head of [StateoftheR](https://stateofther.netlify.app/)
+
+## Research
+
+I am specialized in the development and application of **statistical learning methods for ecology and life sciences** more particularly around omics data and microbial ecology application. More details [here](research.qmd).
+
+## Contact
+
+My lab is located at AgroParisTech - INRAE - Campus Agro Paris-Saclay in Palaiseau near Paris.
+
+[How to come ?](https://www.agroparistech.fr/venir-lecole)

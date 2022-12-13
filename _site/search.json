@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "R",
+    "section": "",
+    "text": "StateoftheR is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio."
+  },
+  {
+    "objectID": "code.html#r-packages",
+    "href": "code.html#r-packages",
+    "title": "R",
+    "section": "R Packages",
+    "text": "R Packages\navailable on the CRAN and for some of them on GitHub.\n\nanapuce: Tools for microarray data analysis.\nMixThres: mixture model of truncated gaussians to detect a hybridization threshold for microarray data.\nCHMM: An exact and a variational inference for Coupled Hidden Markov Models applied to the joint detection of copy number variations.\ncobiclust: Biclustering via Latent Block Model Adapted to Overdispersed Count Data.\ncobiclust: Erysiphe alphitoides pathobiome tutorial"
+  },
+  {
+    "objectID": "code.html#other-packages-developed-in-the-solstis-team",
+    "href": "code.html#other-packages-developed-in-the-solstis-team",
+    "title": "R",
+    "section": "Other packages developed in the SOLsTIS team",
+    "text": "Other packages developed in the SOLsTIS team\n\nsbm: J. Chiquet, S. Donnet & P. Barbillon. R-package for Stochastic Blockmodels. Available github or CRAN\n A collection of Poisson LogNormal models for multivariate count data analysis website"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Analysis of RNA-Seq data with Galaxy (with C. Hennequet-Antier, C. Guérin and V. Loux)\nAnalysis of RNA-Seq data with RStudio (with C. Hennequet-Antier)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research and teaching activities concern the development and application of statistical and computational methods to address problems in life sciences and more particularly in (microbial) ecology involving omics data.\nStatistical Methods in Molecular Biology\n- Design, normalisation and analysis of gene expression experiments based on DNA microarray.\n- Design and analysis of high-throughput gene expression experiments based on next-generation sequencing: mRNA-Seq for transcriptome analysis.\n- Comparative Metagenomics based on next-generation sequencing data.\nStatistical Methods in Microbial Ecology\n- Design and analysis of amplicon-based metagenomic data\n- Biclustering using Latent Block Model\nApplication to microbial ecology, plant-microbial communities interactions in the rhizosphere or soil microbial communities."
+  },
+  {
+    "objectID": "research.html#current-funded-projects",
+    "href": "research.html#current-funded-projects",
+    "title": "Research",
+    "section": "Current funded projects",
+    "text": "Current funded projects\n\nANR EcoNet\nEcoNet (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)\n\n\nANR project NGB\n(2018–2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)"
+  },
+  {
+    "objectID": "publis.html",
+    "href": "publis.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Publications"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Julie Aubert",
+    "section": "",
+    "text": "INRAE Research in Statistical Learning @ MIA Paris Saclay in the SOLsTIS(Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.\n\nCo-head of the StatOmique group\nMember of the INRAE CATI Bioinformatics for Omics and metaOmics of Microbes\nCo-head of StateoftheR"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Julie Aubert",
+    "section": "Research",
+    "text": "Research\nI am specialized in the development and application of statistical learning methods for ecology and life sciences more particularly around omics data and microbial ecology application. More details here."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Julie Aubert",
+    "section": "Contact",
+    "text": "Contact\nMy lab is located at AgroParisTech - INRAE - Campus Agro Paris-Saclay in Palaiseau near Paris.\nHow to come ?"
+  }
+]
