@@ -13,8 +13,6 @@ website:
         icon: fab fa-r-project
       - publis.qmd
       - research.qmd
-      - href: students.qmd
-        icon: fa-graduation-cap
       - href: teaching.qmd
         icon: fa-laptop
     right:
