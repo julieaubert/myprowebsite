@@ -1,0 +1,10 @@
+---
+date: "2024-10-24T12:40:13-06:00"
+lang: fr
+title: sbm
+image: "sbmv0.png"
+---
+
+[**sbm**](https://grosssbm.github.io/sbm/): [J. Chiquet](https://jchiquet.github.io/), [S. Donnet](https://mia-ps.inrae.fr/sophie-donnet) & [P. Barbillon](https://mia-ps.inrae.fr/pierre-barbillon). R-package for Stochastic Blockmodels. Available [github](https://github.com/GrossSBM/sbm) or [CRAN](https%20://cran.r-project.org/web/packages/sbm/index.html)
+
+**shinySbm**: 'shiny' Application to Use the Stochastic Block Model. Available [CRAN](https://cran.r-project.org/package=shinySbm) and on [Migale platform](https://shiny.migale.inrae.fr/app/ShinySBM)

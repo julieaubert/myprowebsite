@@ -8,11 +8,12 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: code.qmd
-        text: "R packages"
-        icon: fab fa-r-project
-      - publis.qmd
       - research.qmd
+      - href: Rprojects.qmd
+        text: "R projects"
+      - href: code.qmd
+        text: "Other R packages"
+        icon: fab fa-r-project
       - href: teaching.qmd
         icon: fa-laptop
     right:

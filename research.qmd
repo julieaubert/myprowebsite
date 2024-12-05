@@ -1,32 +1,37 @@
 ---
 title: "Research"
-editor: visual
+bibliography: main-mybiblio.bib
+bibliographystyle: apa
 ---
 
-My research and teaching activities concern the development and application of statistical and computational methods to address problems in life sciences and more particularly in (microbial) ecology involving omics data.
+I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application. 
 
-**Statistical Methods in Molecular Biology**
+### Research topics and selected associated publications
 
-\- Design and analysis of high-throughput gene expression experiments based on next-generation sequencing: mRNA-Seq for transcriptome analysis.
+-   **Latent variable models in particular for omics data**       [see @aubert2017; @aubert2021hal-03323318; @wang_variational_inference_for_2019_hal-02626026]        
+*keywords: Latent Block Models, Overdispersed Count Data, Coupled Hidden Markov-Model*
 
-Application in cheese metatranscriptome, sea urchin transcriptome
+-   **Applications in microbial ecology**  
+plant-microbial communities interactions - soil microbial communities - food microbial communities
+[see @lejal_temporal_patterns_in_2021_hal-03287263; @romdhane_unraveling_negative_biotic_2022_hal-03604836; @Thieffry2024-hq; @Lecomte2024-tb; @Zancarini2024-wm]       
+*keywords: multivariate analysis, count data, co-occurrences network inference, machine learning, metabarcoding*
 
-\- Comparative Metagenomics based on next-generation sequencing data.
+-   **Statistical methods for analyzing transcriptomics data**        [see @dillies_a_comprehensive_evaluation_2012_hal-00782486; @mary-huard2008; @magniette_normalization_for_tripletarget_2008_hal-01197566; @chasse_translatome_analysis_at_2018_hal-01803500; @cao_finetuning_of_process_2021_hal-03313075; @aubert_determination_of_the_2004_hal-01208107]              
+*keywords: normalization, false discovery rate control, experimental design, sea-urchin traductome, cheese metatranscriptome*
 
-**Statistical Methods in Microbial Ecology**
+-   **GenexEnvironment prediction**       [see @Washburn2024-qq]       
+*keywords: machine learning, reproducibility, competition* 
 
-\- Design and analysis of amplicon-based metagenomic data
 
-\- Biclustering using Latent Block Model
+::: {#refs-main}
+:::
 
-Application to microbial ecology, plant-microbial communities interactions in the rhizosphere or soil microbial communities.
+### Some past funded projects
 
-## Current funded projects
+#### ANR EcoNet
 
-### ANR EcoNet
+EcoNet (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)
 
-[EcoNet](https://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html) (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)
-
-### ANR project NGB
+#### ANR project NGB
 
 (2018--2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)

@@ -1,0 +1,9 @@
+---
+date: "2024-10-24T12:40:13-06:00"
+lang: fr
+title: CRAN Task View Genomics, Proteomics, Metabolomics, Transcriptomics, and Other Omics
+image: "ctv.png"
+---
+
+I maintain with (Nathalie Vialaneix)[
+http://www.nathalievialaneix.eu] and (Toby Dylan Hocking)[http://tdhock.github.io/] the `CRAN Task View (CTV): Genomics, Proteomics, Metabolomics, Transcriptomics, and Other Omics`. In this CTV, we focus on the most-important CRAN packages dedicated to omics data analysis including those related to annotation and databases. More information on (the dedicated webpage)[https://cran.r-project.org/view=Omics].

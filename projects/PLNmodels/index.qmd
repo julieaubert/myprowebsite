@@ -1,0 +1,10 @@
+---
+date: "2024-10-24T12:40:13-06:00"
+lang: fr
+title: PLNmodels
+image: "PLNmodels.png"
+---
+
+A collection of Poisson LogNormal models for multivariate count data analysis [website](https://pln-team.github.io/PLNmodels/)
+
+## 

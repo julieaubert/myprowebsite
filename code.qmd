@@ -1,19 +1,11 @@
 ---
 title: "R"
-editor: visual
+lang: fr
 ---
-
-## ![](img/sticker_sotr.png){width="100"} 
-
-[StateoftheR](https://stateofther.netlify.app/) is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio.
 
 ## R Packages
 
 available on the CRAN and for some of them on GitHub.
-
--   [**anapuce**](https://cran.r-project.org/web/packages/anapuce/index.html): Tools for microarray data analysis.
-
--   **MixThres**: mixture model of truncated gaussians to detect a hybridization threshold for microarray data.
 
 -   [**CHMM**](https://cran.r-project.org/web/packages/CHMM/index.html): An exact and a variational inference for Coupled Hidden Markov Models applied to the joint detection of copy number variations.
 
@@ -21,8 +13,8 @@ available on the CRAN and for some of them on GitHub.
 
     [cobiclust: Erysiphe alphitoides pathobiome tutorial](https://julieaubert.github.io/cobiclust/cobiclust-example1.html)
 
-## Other packages developed in the SOLsTIS team
+## Other R packages
 
--   [**sbm**](https://grosssbm.github.io/sbm/): [J. Chiquet](https://jchiquet.github.io/), [S. Donnet](https://mia-ps.inrae.fr/sophie-donnet) & [P. Barbillon](https://mia-ps.inrae.fr/pierre-barbillon). R-package for Stochastic Blockmodels. Available [github](https://github.com/GrossSBM/sbm) or [CRAN](https%20://cran.r-project.org/web/packages/sbm/index.html)
+-   [**anapuce**](https://cran.r-project.org/web/packages/anapuce/index.html): Tools for microarray data analysis.
 
--   ![](img/PLNmodels.png){width="100"} A collection of Poisson LogNormal models for multivariate count data analysis [website](https://pln-team.github.io/PLNmodels/)
+-   **MixThres**: mixture model of truncated gaussians to detect a hybridization threshold for microarray data.

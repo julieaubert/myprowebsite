@@ -1,0 +1,10 @@
+---
+date: "2024-10-24T12:40:13-06:00"
+lang: fr
+title: scimo
+image: "scimo.png"
+---
+
+**scimo: Extra Recipes Steps for Dealing with Omics Data**
+
+Package developed by Antoine Bichat and available on [Github](https://github.com/abichat/scimo) and [CRAN](https://cran.r-project.org/package=scimo)

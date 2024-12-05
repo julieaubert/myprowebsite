@@ -1,0 +1,10 @@
+---
+date: "2024-10-24T12:36:13-06:00"
+lang: fr
+title: StateOftheR
+image: "sticker_sotr.png"
+---
+
+[StateoftheR](https://stateofther.netlify.app/) is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio.
+
+## 

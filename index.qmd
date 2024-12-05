@@ -7,6 +7,7 @@ about:
     - text: GitHub
       icon: github
       url: "https://github.com/julieaubert"
+      target: _blanck_
     - text: Email
       url: "mailto:julie.aubert@inrae.fr"
 comments: false
@@ -20,7 +21,7 @@ comments: false
 
 -   Member of the INRAE CATI [**B**ioinformatics for **O**mics and meta**O**mics of **M**icrobes](https://cati-boom-public.pages.mia.inra.fr/site-officiel/)
 
--   Co-head of [StateoftheR](https://stateofther.netlify.app/)
+-   Head of [StateoftheR](https://stateofther.netlify.app/)
 
 ## Research
 

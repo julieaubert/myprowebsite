@@ -1,0 +1,9 @@
+---
+title: "R projects"
+lang: fr
+listing:
+  contents: projects
+  max-description-length: 120
+  type: grid
+  categories: true
+---

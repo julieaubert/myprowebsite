@@ -5,7 +5,6 @@ editor: visual
 
 Practical training courses on the [MIGALE](https://migale.inra.fr/ "https://migale.inra.fr") platform.
 
-- Analysis of RNA-Seq data with Galaxy
-(with C. Hennequet-Antier, C. Guérin and V. Loux)
+-   Analysis of RNA-Seq data with Galaxy (with C. Hennequet-Antier, C. Guérin and V. Loux)
 
-- Analysis of RNA-Seq data with RStudio (with C. Hennequet-Antier)
+-   Analysis of RNA-Seq data with RStudio (with C. Hennequet-Antier)

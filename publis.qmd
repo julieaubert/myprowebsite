@@ -1,6 +1,0 @@
----
-title: "Publications"
-editor: visual
----
-
-[Publications](https://cv.hal.science/julie-aubert)
