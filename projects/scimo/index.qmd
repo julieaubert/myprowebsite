@@ -1,10 +1,10 @@
 ---
 date: "2024-10-24T12:40:13-06:00"
 lang: fr
-title: scimo
+title: scimo - Extra Recipes Steps for Dealing with Omics Data
 image: "scimo.png"
 ---
 
-**scimo: Extra Recipes Steps for Dealing with Omics Data**
-
 Package developed by Antoine Bichat and available on [Github](https://github.com/abichat/scimo) and [CRAN](https://cran.r-project.org/package=scimo)
+
+Omics data (e.g. transcriptomics, proteomics, metagenomics...) offer a detailed and multi-dimensional perspective on the molecular components and interactions within complex biological (eco)systems. Analyzing these data requires adapted procedures, which are implemented as steps according to the `recipes` package.

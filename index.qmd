@@ -15,7 +15,7 @@ comments: false
 
 ## Bio
 
-[INRAE](https://www.inrae.fr/) Research in Statistical Learning \@ [MIA Paris Saclay](https://mia-ps.inrae.fr/) in the [SOLsTIS](https://mia-ps.inrae.fr/solstis)(Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.
+[INRAE](https://www.inrae.fr/) Research in Statistical Learning \@ [MIA Paris Saclay](https://mia-ps.inrae.fr/) in the [SOLsTIS](https://mia-ps.inrae.fr/solstis) (Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.
 
 -   Co-head of the [StatOmique](https://statomique.netlify.app/about/) group
 
