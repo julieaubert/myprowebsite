@@ -1,45 +1,10 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
+    "objectID": "Rprojects.html",
+    "href": "Rprojects.html",
+    "title": "R projects",
     "section": "",
-    "text": "My research and teaching activities concern the development and application of statistical and computational methods to address problems in life sciences and more particularly in (microbial) ecology involving omics data.\nStatistical Methods in Molecular Biology\n- Design and analysis of high-throughput gene expression experiments based on next-generation sequencing: mRNA-Seq for transcriptome analysis.\nApplication in cheese metatranscriptome, sea urchin transcriptome\n- Comparative Metagenomics based on next-generation sequencing data.\nStatistical Methods in Microbial Ecology\n- Design and analysis of amplicon-based metagenomic data\n- Biclustering using Latent Block Model\nApplication to microbial ecology, plant-microbial communities interactions in the rhizosphere or soil microbial communities."
-  },
-  {
-    "objectID": "research.html#current-funded-projects",
-    "href": "research.html#current-funded-projects",
-    "title": "Research",
-    "section": "Current funded projects",
-    "text": "Current funded projects\n\nANR EcoNet\nEcoNet (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)\n\n\nANR project NGB\n(2018–2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)"
-  },
-  {
-    "objectID": "code.html",
-    "href": "code.html",
-    "title": "R",
-    "section": "",
-    "text": "StateoftheR is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio."
-  },
-  {
-    "objectID": "code.html#r-packages",
-    "href": "code.html#r-packages",
-    "title": "R",
-    "section": "R Packages",
-    "text": "R Packages\navailable on the CRAN and for some of them on GitHub.\n\nanapuce: Tools for microarray data analysis.\nMixThres: mixture model of truncated gaussians to detect a hybridization threshold for microarray data.\nCHMM: An exact and a variational inference for Coupled Hidden Markov Models applied to the joint detection of copy number variations.\ncobiclust: Biclustering via Latent Block Model Adapted to Overdispersed Count Data.\ncobiclust: Erysiphe alphitoides pathobiome tutorial"
-  },
-  {
-    "objectID": "code.html#other-packages-developed-in-the-solstis-team",
-    "href": "code.html#other-packages-developed-in-the-solstis-team",
-    "title": "R",
-    "section": "Other packages developed in the SOLsTIS team",
-    "text": "Other packages developed in the SOLsTIS team\n\nsbm: J. Chiquet, S. Donnet & P. Barbillon. R-package for Stochastic Blockmodels. Available github or CRAN\n A collection of Poisson LogNormal models for multivariate count data analysis website"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Practical training courses on the MIGALE platform.\n\nAnalysis of RNA-Seq data with Galaxy (with C. Hennequet-Antier, C. Guérin and V. Loux)\nAnalysis of RNA-Seq data with RStudio (with C. Hennequet-Antier)"
+    "text": "CRAN Task View Genomics, Proteomics, Metabolomics, Transcriptomics, and Other Omics\n\n\n\n\n\n\n\n\n\n24 oct. 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR-package PLNmodels\n\n\n\n\n\n\n\n\n\n24 oct. 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR-packages for Stochastic Blockmodels\n\n\n\n\n\n\n\n\n\n24 oct. 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStateOftheR\n\n\n\n\n\n\n\n\n\n24 oct. 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nscimo - Extra Recipes Steps for Dealing with Omics Data\n\n\n\n\n\n\n\n\n\n24 oct. 2024\n\n\n\n\n\n\n\n\nAucun article correspondant"
   },
   {
     "objectID": "about.html",
@@ -49,11 +14,88 @@
     "text": "About this site"
   },
   {
+    "objectID": "projects/sbm/index.html",
+    "href": "projects/sbm/index.html",
+    "title": "R-packages for Stochastic Blockmodels",
+    "section": "",
+    "text": "sbm: J. Chiquet, S. Donnet & P. Barbillon. R-package for Stochastic Blockmodels. Available github or CRAN\nshinySbm: ‘shiny’ Application to Use the Stochastic Block Model. Available CRAN and on Migale platform"
+  },
+  {
+    "objectID": "projects/scimo/index.html",
+    "href": "projects/scimo/index.html",
+    "title": "scimo - Extra Recipes Steps for Dealing with Omics Data",
+    "section": "",
+    "text": "Package developed by Antoine Bichat and available on Github and CRAN\nOmics data (e.g. transcriptomics, proteomics, metagenomics…) offer a detailed and multi-dimensional perspective on the molecular components and interactions within complex biological (eco)systems. Analyzing these data requires adapted procedures, which are implemented as steps according to the recipes package."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Practical training courses on the MIGALE platform.\n\nAnalysis of RNA-Seq data with Galaxy (with C. Hennequet-Antier, C. Guérin and V. Loux)\nAnalysis of RNA-Seq data with RStudio (with C. Hennequet-Antier)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application.\n\nResearch topics and selected associated publications\n\nLatent variable models in particular for omics data (see J. Aubert 2017; S. Aubert J.* and Robin 2021; Wang, Aubert, and Robin 2019)\nkeywords: Latent Block Models, Overdispersed Count Data, Coupled Hidden Markov-Model\nApplications in microbial ecology\nplant-microbial communities interactions - soil microbial communities - food microbial communities (see Lejal et al. 2021; Romdhane et al. 2022; Thieffry et al. 2024; Lecomte et al. 2024; Zancarini et al. 2024)\nkeywords: multivariate analysis, count data, co-occurrences network inference, machine learning, metabarcoding\nStatistical methods for analyzing transcriptomics data (see Dillies et al. 2012; Mary-Huard et al. 2008; Magniette et al. 2008; Chassé et al. 2018; Cao et al. 2021; J. Aubert et al. 2004)\nkeywords: normalization, false discovery rate control, experimental design, sea-urchin traductome, cheese metatranscriptome\nGenexEnvironment prediction (see Washburn et al. 2024)\nkeywords: machine learning, reproducibility, competition\n\n\n\n\n\n\nSome past funded projects\n\nANR EcoNet\nEcoNet (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)\n\n\nANR project NGB\n(2018–2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)\n\n\n\n\n\n\nReferences\n\nAubert, J. 2017. “Analyse Statistique de Données Biologiques à Haut Débit.” PhD thesis.\n\n\nAubert, J., A. Bar-Hen, J.-J. Daudin, and S.* Robin. 2004. “Determination of the Regulated Genes in Microarray Experiments Using Local FDR.” BMC Bioinformatics 5: np. https://doi.org/10.1186/1471-2105-5-125.\n\n\nAubert, Schbath, J.*, and S. Robin. 2021. “Model‐based Biclustering for Overdispersed Count Data with Application in Microbial Ecology.” Methods in Ecology and Evolution 12: 1050–61. https://doi.org/10.1111/2041-210X.13582.\n\n\nCao, W., J. Aubert, M.-B. Maillard, F. Boissel, A. Leduc, J.-L. Thomas, S.-M. Deutsch, et al. 2021. “Fine-Tuning of Process Parameters Modulates Specific Metabolic Bacterial Activities and Aroma Compound Production in Semi-Hard Cheese.” Journal of Agricultural and Food Chemistry. https://doi.org/10.1021/acs.jafc.1c01634.\n\n\nChassé, H., J. Aubert, S. Boulben, Le Corguillé G., E. Corre, P. Cormier, and J. Morales. 2018. “Translatome Analysis at the Egg-to-Embryo Transition in Sea Urchin.” Nucleic Acids Research 46: 4607–21. https://doi.org/10.1093/nar/gky258.\n\n\nDillies, M.-A., A. Rau, J. Aubert, C. Hennequet-Antier, M. Jeanmougin, N. Servant, C. Keime, et al. 2012. “A Comprehensive Evaluation of Normalization Methods for Illumina High-Throughput RNA Sequencing Data Analysis.” Briefings in Bioinformatics 14: 671–83. https://doi.org/10.1093/bib/bbs046.\n\n\nLecomte, Maxime, Wenfan Cao, Julie Aubert, David James Sherman, Hélène Falentin, Clémence Frioux, and Simon Labarthe. 2024. “Revealing the Dynamics and Mechanisms of Bacterial Interactions in Cheese Production with Metabolic Modelling.” Metab. Eng. 83 (May): 24–38.\n\n\nLejal, E., J. Chiquet, J. Aubert, S. Robin, A. Estrada-Peña, O. Rue, C. Midoux, et al. 2021. “Temporal Patterns in Ixodes Ricinus Microbial Communities: An Insight into Tick-Borne Microbe Interactions.” Microbiome 9: 153. https://doi.org/10.1186/s40168-021-01051-8.\n\n\nMagniette, M.-L., J. Aubert, A. Bar-Hen, S. Elftieh, F. Magniette, J.-P. Renou, and J.-J. Daudin. 2008. “Normalization for Triple-Target Microarray Experiments.” BMC Bioinformatics 9: 216. https://doi.org/10.1186/1471-2105-9-216.\n\n\nMary-Huard, T., J. Aubert, N. Mansouri, O. Sandra, and J.-J. Daudin. 2008. “Statistical Methodology for the Analysis of Dye-Switch Microarray Experiments.” BMC Bioinformatics 9: np. https://doi.org/10.1186/1471-2105-9-98.\n\n\nRomdhane, S., A. Spor, J. Aubert, D. Bru, M.-C. Breuil, S. Hallin, A. Mounier, S. Ouadah, M. Tsiknia, and L. Philippot. 2022. “Unraveling Negative Biotic Interactions Determining Soil Microbial Community Assembly and Functioning.” The International Society of Microbiologial Ecology Journal 16: 296–306. https://doi.org/10.1038/s41396-021-01076-9.\n\n\nThieffry, Sylvia, Julie Aubert, Marion Devers-Lamrani, Fabrice Martin-Laurent, Sana Romdhane, Nadine Rouard, Mathieu Siol, and Aymé Spor. 2024. “Engineering Multi-Degrading Bacterial Communities to Bioremediate Soils Contaminated with Pesticides Residues.” J. Hazard. Mater. 471 (134454): 134454.\n\n\nWang, Lebarbier, X.*, J. Aubert, and S. Robin. 2019. “Variational Inference for Coupled Hidden Markov Models Applied to the Joint Detection of Copy Number Variations.” The International Journal of Biostatistics 15. https://doi.org/10.1515/ijb-2018-0023.\n\n\nWashburn, Jacob D, José Ignacio Varela, Alencar Xavier, Qiuyue Chen, David Ertl, Joseph L Gage, James B Holland, et al. 2024. “Global Genotype by Environment Prediction Competition Reveals That Diverse Modeling Strategies Can Deliver Satisfactory Maize Yield Estimates.” Genetics, November.\n\n\nZancarini, Anouk, Christine Le Signor, Sébastien Terrat, Julie Aubert, Christophe Salon, Nathalie Munier-Jolain, and Christophe Mougel. 2024. “Medicago Truncatula Genotype Drives the Plant Nutritional Strategy and Its Associated Rhizosphere Bacterial Communities.” New Phytol., November."
+  },
+  {
+    "objectID": "code.html",
+    "href": "code.html",
+    "title": "R",
+    "section": "",
+    "text": "available on the CRAN and for some of them on GitHub.\n\nCHMM: An exact and a variational inference for Coupled Hidden Markov Models applied to the joint detection of copy number variations.\ncobiclust: Biclustering via Latent Block Model Adapted to Overdispersed Count Data.\ncobiclust: Erysiphe alphitoides pathobiome tutorial"
+  },
+  {
+    "objectID": "code.html#r-packages",
+    "href": "code.html#r-packages",
+    "title": "R",
+    "section": "",
+    "text": "available on the CRAN and for some of them on GitHub.\n\nCHMM: An exact and a variational inference for Coupled Hidden Markov Models applied to the joint detection of copy number variations.\ncobiclust: Biclustering via Latent Block Model Adapted to Overdispersed Count Data.\ncobiclust: Erysiphe alphitoides pathobiome tutorial"
+  },
+  {
+    "objectID": "code.html#other-r-packages",
+    "href": "code.html#other-r-packages",
+    "title": "R",
+    "section": "Other R packages",
+    "text": "Other R packages\n\nanapuce: Tools for microarray data analysis.\nMixThres: mixture model of truncated gaussians to detect a hybridization threshold for microarray data."
+  },
+  {
+    "objectID": "projects/ctvomics/index.html",
+    "href": "projects/ctvomics/index.html",
+    "title": "CRAN Task View Genomics, Proteomics, Metabolomics, Transcriptomics, and Other Omics",
+    "section": "",
+    "text": "I maintain with (Nathalie Vialaneix)[ http://www.nathalievialaneix.eu] and (Toby Dylan Hocking)[http://tdhock.github.io/] the CRAN Task View (CTV): Genomics, Proteomics, Metabolomics, Transcriptomics, and Other Omics. In this CTV, we focus on the most-important CRAN packages dedicated to omics data analysis including those related to annotation and databases. More information on (the dedicated webpage)[https://cran.r-project.org/view=Omics]."
+  },
+  {
+    "objectID": "projects/stateofther/index.html",
+    "href": "projects/stateofther/index.html",
+    "title": "StateOftheR",
+    "section": "",
+    "text": "StateoftheR is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio."
+  },
+  {
+    "objectID": "projects/PLNmodels/index.html",
+    "href": "projects/PLNmodels/index.html",
+    "title": "R-package PLNmodels",
+    "section": "",
+    "text": "A collection of Poisson LogNormal models for multivariate count data analysis\nThe Poisson lognormal model and variants can be used for a variety of multivariate problems when count data are at play (including PCA, LDA and network inference for count data). The PLNmodels implements efficient algorithms to fit such models accompanied with a set of functions for visualization and diagnostic.\nMore information on the dedicated website."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Julie Aubert",
     "section": "",
-    "text": "INRAE Research in Statistical Learning @ MIA Paris Saclay in the SOLsTIS(Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.\n\nCo-head of the StatOmique group\nMember of the INRAE CATI Bioinformatics for Omics and metaOmics of Microbes\nCo-head of StateoftheR"
+    "text": "INRAE Research in Statistical Learning @ MIA Paris Saclay in the SOLsTIS (Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.\n\nCo-head of the StatOmique group\nMember of the INRAE CATI Bioinformatics for Omics and metaOmics of Microbes\nHead of StateoftheR"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Julie Aubert",
+    "section": "",
+    "text": "INRAE Research in Statistical Learning @ MIA Paris Saclay in the SOLsTIS (Statistical mOdelling and Learning for environnemenT and lIfe Sciences) team.\n\nCo-head of the StatOmique group\nMember of the INRAE CATI Bioinformatics for Omics and metaOmics of Microbes\nHead of StateoftheR"
   },
   {
     "objectID": "index.html#research",
@@ -68,12 +110,5 @@
     "title": "Julie Aubert",
     "section": "Contact",
     "text": "Contact\nMy lab is located at AgroParisTech - INRAE - Campus Agro Paris-Saclay in Palaiseau near Paris.\nHow to come ?"
-  },
-  {
-    "objectID": "publis.html",
-    "href": "publis.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Publications"
   }
 ]

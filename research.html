@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.269">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Julie Aubert - Research</title>
+<title>Research – Julie Aubert</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,10 +17,30 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -35,17 +55,23 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d89fc942f684c7f97fb3c2cf2bc0f3e1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -54,8 +80,10 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -67,9 +95,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./img/LogoINRAE-MIA.jpg" alt="" class="navbar-logo">
     </a>
@@ -77,37 +105,38 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Julie Aubert</span>
     </a>
   </div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code.html"><i class="bi bi-fab fa-r-project" role="img">
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Rprojects.html"> 
+<span class="menu-text">R projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./code.html"> <i class="bi bi-fab fa-r-project" role="img">
 </i> 
- <span class="menu-text">R packages</span></a>
+<span class="menu-text">Other R packages</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publis.html">
- <span class="menu-text">Publications</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">
- <span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"><i class="bi bi-fa-laptop" role="img">
+    <a class="nav-link" href="./teaching.html"> <i class="bi bi-fa-laptop" role="img">
 </i> 
- <span class="menu-text">Teaching</span></a>
+<span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-on-the-web" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-on-the-web" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">On the web</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-on-the-web">    
@@ -129,8 +158,9 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -143,11 +173,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#current-funded-projects" id="toc-current-funded-projects" class="nav-link active" data-scroll-target="#current-funded-projects">Current funded projects</a>
-  <ul class="collapse">
-  <li><a href="#anr-econet" id="toc-anr-econet" class="nav-link" data-scroll-target="#anr-econet">ANR EcoNet</a></li>
-  <li><a href="#anr-project-ngb" id="toc-anr-project-ngb" class="nav-link" data-scroll-target="#anr-project-ngb">ANR project NGB</a></li>
-  </ul></li>
+  <li><a href="#research-topics-and-selected-associated-publications" id="toc-research-topics-and-selected-associated-publications" class="nav-link active" data-scroll-target="#research-topics-and-selected-associated-publications">Research topics and selected associated publications</a></li>
+  <li><a href="#some-past-funded-projects" id="toc-some-past-funded-projects" class="nav-link" data-scroll-target="#some-past-funded-projects">Some past funded projects</a></li>
   </ul>
 </nav>
     </div>
@@ -169,32 +196,90 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
-<p>My research and teaching activities concern the development and application of statistical and computational methods to address problems in life sciences and more particularly in (microbial) ecology involving omics data.</p>
-<p><strong>Statistical Methods in Molecular Biology</strong></p>
-<p>- Design and analysis of high-throughput gene expression experiments based on next-generation sequencing: mRNA-Seq for transcriptome analysis.</p>
-<p>Application in cheese metatranscriptome, sea urchin transcriptome</p>
-<p>- Comparative Metagenomics based on next-generation sequencing data.</p>
-<p><strong>Statistical Methods in Microbial Ecology</strong></p>
-<p>- Design and analysis of amplicon-based metagenomic data</p>
-<p>- Biclustering using Latent Block Model</p>
-<p>Application to microbial ecology, plant-microbial communities interactions in the rhizosphere or soil microbial communities.</p>
-<section id="current-funded-projects" class="level2">
-<h2 class="anchored" data-anchor-id="current-funded-projects">Current funded projects</h2>
-<section id="anr-econet" class="level3">
-<h3 class="anchored" data-anchor-id="anr-econet">ANR EcoNet</h3>
-<p><a href="https://cmatias.perso.math.cnrs.fr/ANR_EcoNet.html">EcoNet</a> (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)</p>
+
+<p>I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application.</p>
+<section id="research-topics-and-selected-associated-publications" class="level3">
+<h3 class="anchored" data-anchor-id="research-topics-and-selected-associated-publications">Research topics and selected associated publications</h3>
+<ul>
+<li><p><strong>Latent variable models in particular for omics data</strong> <span class="citation" data-cites="aubert2017 aubert2021hal-03323318 wang_variational_inference_for_2019_hal-02626026">(see <a href="#ref-aubert2017" role="doc-biblioref">J. Aubert 2017</a>; <a href="#ref-aubert2021hal-03323318" role="doc-biblioref">S. Aubert J.* and Robin 2021</a>; <a href="#ref-wang_variational_inference_for_2019_hal-02626026" role="doc-biblioref">Wang, Aubert, and Robin 2019</a>)</span><br>
+<em>keywords: Latent Block Models, Overdispersed Count Data, Coupled Hidden Markov-Model</em></p></li>
+<li><p><strong>Applications in microbial ecology</strong><br>
+plant-microbial communities interactions - soil microbial communities - food microbial communities <span class="citation" data-cites="lejal_temporal_patterns_in_2021_hal-03287263 romdhane_unraveling_negative_biotic_2022_hal-03604836 Thieffry2024-hq Lecomte2024-tb Zancarini2024-wm">(see <a href="#ref-lejal_temporal_patterns_in_2021_hal-03287263" role="doc-biblioref">Lejal et al. 2021</a>; <a href="#ref-romdhane_unraveling_negative_biotic_2022_hal-03604836" role="doc-biblioref">Romdhane et al. 2022</a>; <a href="#ref-Thieffry2024-hq" role="doc-biblioref">Thieffry et al. 2024</a>; <a href="#ref-Lecomte2024-tb" role="doc-biblioref">Lecomte et al. 2024</a>; <a href="#ref-Zancarini2024-wm" role="doc-biblioref">Zancarini et al. 2024</a>)</span><br>
+<em>keywords: multivariate analysis, count data, co-occurrences network inference, machine learning, metabarcoding</em></p></li>
+<li><p><strong>Statistical methods for analyzing transcriptomics data</strong> <span class="citation" data-cites="dillies_a_comprehensive_evaluation_2012_hal-00782486 mary-huard2008 magniette_normalization_for_tripletarget_2008_hal-01197566 chasse_translatome_analysis_at_2018_hal-01803500 cao_finetuning_of_process_2021_hal-03313075 aubert_determination_of_the_2004_hal-01208107">(see <a href="#ref-dillies_a_comprehensive_evaluation_2012_hal-00782486" role="doc-biblioref">Dillies et al. 2012</a>; <a href="#ref-mary-huard2008" role="doc-biblioref">Mary-Huard et al. 2008</a>; <a href="#ref-magniette_normalization_for_tripletarget_2008_hal-01197566" role="doc-biblioref">Magniette et al. 2008</a>; <a href="#ref-chasse_translatome_analysis_at_2018_hal-01803500" role="doc-biblioref">Chassé et al. 2018</a>; <a href="#ref-cao_finetuning_of_process_2021_hal-03313075" role="doc-biblioref">Cao et al. 2021</a>; <a href="#ref-aubert_determination_of_the_2004_hal-01208107" role="doc-biblioref">J. Aubert et al. 2004</a>)</span><br>
+<em>keywords: normalization, false discovery rate control, experimental design, sea-urchin traductome, cheese metatranscriptome</em></p></li>
+<li><p><strong>GenexEnvironment prediction</strong> <span class="citation" data-cites="Washburn2024-qq">(see <a href="#ref-Washburn2024-qq" role="doc-biblioref">Washburn et al. 2024</a>)</span><br>
+<em>keywords: machine learning, reproducibility, competition</em></p></li>
+</ul>
+<div id="refs-main">
+
+</div>
 </section>
-<section id="anr-project-ngb" class="level3">
-<h3 class="anchored" data-anchor-id="anr-project-ngb">ANR project NGB</h3>
+<section id="some-past-funded-projects" class="level3">
+<h3 class="anchored" data-anchor-id="some-past-funded-projects">Some past funded projects</h3>
+<section id="anr-econet" class="level4">
+<h4 class="anchored" data-anchor-id="anr-econet">ANR EcoNet</h4>
+<p>EcoNet (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)</p>
+</section>
+<section id="anr-project-ngb" class="level4">
+<h4 class="anchored" data-anchor-id="anr-project-ngb">ANR project NGB</h4>
 <p>(2018–2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)</p>
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-aubert2017" class="csl-entry" role="listitem">
+Aubert, J. 2017. <span>“Analyse Statistique de Données Biologiques à Haut Débit.”</span> PhD thesis.
+</div>
+<div id="ref-aubert_determination_of_the_2004_hal-01208107" class="csl-entry" role="listitem">
+Aubert, J., A. Bar-Hen, J.-J. Daudin, and S.* Robin. 2004. <span>“Determination of the Regulated Genes in Microarray Experiments Using Local FDR.”</span> <em>BMC Bioinformatics</em> 5: np. <a href="https://doi.org/10.1186/1471-2105-5-125">https://doi.org/10.1186/1471-2105-5-125</a>.
+</div>
+<div id="ref-aubert2021hal-03323318" class="csl-entry" role="listitem">
+Aubert, Schbath, J.*, and S. Robin. 2021. <span>“Model‐based Biclustering for Overdispersed Count Data with Application in Microbial Ecology.”</span> <em>Methods in Ecology and Evolution</em> 12: 1050–61. <a href="https://doi.org/10.1111/2041-210X.13582">https://doi.org/10.1111/2041-210X.13582</a>.
+</div>
+<div id="ref-cao_finetuning_of_process_2021_hal-03313075" class="csl-entry" role="listitem">
+Cao, W., J. Aubert, M.-B. Maillard, F. Boissel, A. Leduc, J.-L. Thomas, S.-M. Deutsch, et al. 2021. <span>“Fine-Tuning of Process Parameters Modulates Specific Metabolic Bacterial Activities and Aroma Compound Production in Semi-Hard Cheese.”</span> <em>Journal of Agricultural and Food Chemistry</em>. <a href="https://doi.org/10.1021/acs.jafc.1c01634">https://doi.org/10.1021/acs.jafc.1c01634</a>.
+</div>
+<div id="ref-chasse_translatome_analysis_at_2018_hal-01803500" class="csl-entry" role="listitem">
+Chassé, H., J. Aubert, S. Boulben, Le Corguillé G., E. Corre, P. Cormier, and J. Morales. 2018. <span>“Translatome Analysis at the Egg-to-Embryo Transition in Sea Urchin.”</span> <em>Nucleic Acids Research</em> 46: 4607–21. <a href="https://doi.org/10.1093/nar/gky258">https://doi.org/10.1093/nar/gky258</a>.
+</div>
+<div id="ref-dillies_a_comprehensive_evaluation_2012_hal-00782486" class="csl-entry" role="listitem">
+Dillies, M.-A., A. Rau, J. Aubert, C. Hennequet-Antier, M. Jeanmougin, N. Servant, C. Keime, et al. 2012. <span>“A Comprehensive Evaluation of Normalization Methods for Illumina High-Throughput RNA Sequencing Data Analysis.”</span> <em>Briefings in Bioinformatics</em> 14: 671–83. <a href="https://doi.org/10.1093/bib/bbs046">https://doi.org/10.1093/bib/bbs046</a>.
+</div>
+<div id="ref-Lecomte2024-tb" class="csl-entry" role="listitem">
+Lecomte, Maxime, Wenfan Cao, Julie Aubert, David James Sherman, Hélène Falentin, Clémence Frioux, and Simon Labarthe. 2024. <span>“Revealing the Dynamics and Mechanisms of Bacterial Interactions in Cheese Production with Metabolic Modelling.”</span> <em>Metab. Eng.</em> 83 (May): 24–38.
+</div>
+<div id="ref-lejal_temporal_patterns_in_2021_hal-03287263" class="csl-entry" role="listitem">
+Lejal, E., J. Chiquet, J. Aubert, S. Robin, A. Estrada-Peña, O. Rue, C. Midoux, et al. 2021. <span>“Temporal Patterns in Ixodes Ricinus Microbial Communities: An Insight into Tick-Borne Microbe Interactions.”</span> <em>Microbiome</em> 9: 153. <a href="https://doi.org/10.1186/s40168-021-01051-8">https://doi.org/10.1186/s40168-021-01051-8</a>.
+</div>
+<div id="ref-magniette_normalization_for_tripletarget_2008_hal-01197566" class="csl-entry" role="listitem">
+Magniette, M.-L., J. Aubert, A. Bar-Hen, S. Elftieh, F. Magniette, J.-P. Renou, and J.-J. Daudin. 2008. <span>“Normalization for Triple-Target Microarray Experiments.”</span> <em>BMC Bioinformatics</em> 9: 216. <a href="https://doi.org/10.1186/1471-2105-9-216">https://doi.org/10.1186/1471-2105-9-216</a>.
+</div>
+<div id="ref-mary-huard2008" class="csl-entry" role="listitem">
+Mary-Huard, T., J. Aubert, N. Mansouri, O. Sandra, and J.-J. Daudin. 2008. <span>“Statistical Methodology for the Analysis of Dye-Switch Microarray Experiments.”</span> <em>BMC Bioinformatics</em> 9: np. <a href="https://doi.org/10.1186/1471-2105-9-98">https://doi.org/10.1186/1471-2105-9-98</a>.
+</div>
+<div id="ref-romdhane_unraveling_negative_biotic_2022_hal-03604836" class="csl-entry" role="listitem">
+Romdhane, S., A. Spor, J. Aubert, D. Bru, M.-C. Breuil, S. Hallin, A. Mounier, S. Ouadah, M. Tsiknia, and L. Philippot. 2022. <span>“Unraveling Negative Biotic Interactions Determining Soil Microbial Community Assembly and Functioning.”</span> <em>The International Society of Microbiologial Ecology Journal</em> 16: 296–306. <a href="https://doi.org/10.1038/s41396-021-01076-9">https://doi.org/10.1038/s41396-021-01076-9</a>.
+</div>
+<div id="ref-Thieffry2024-hq" class="csl-entry" role="listitem">
+Thieffry, Sylvia, Julie Aubert, Marion Devers-Lamrani, Fabrice Martin-Laurent, Sana Romdhane, Nadine Rouard, Mathieu Siol, and Aymé Spor. 2024. <span>“Engineering Multi-Degrading Bacterial Communities to Bioremediate Soils Contaminated with Pesticides Residues.”</span> <em>J. Hazard. Mater.</em> 471 (134454): 134454.
+</div>
+<div id="ref-wang_variational_inference_for_2019_hal-02626026" class="csl-entry" role="listitem">
+Wang, Lebarbier, X.*, J. Aubert, and S. Robin. 2019. <span>“Variational Inference for Coupled Hidden Markov Models Applied to the Joint Detection of Copy Number Variations.”</span> <em>The International Journal of Biostatistics</em> 15. <a href="https://doi.org/10.1515/ijb-2018-0023">https://doi.org/10.1515/ijb-2018-0023</a>.
+</div>
+<div id="ref-Washburn2024-qq" class="csl-entry" role="listitem">
+Washburn, Jacob D, José Ignacio Varela, Alencar Xavier, Qiuyue Chen, David Ertl, Joseph L Gage, James B Holland, et al. 2024. <span>“Global Genotype by Environment Prediction Competition Reveals That Diverse Modeling Strategies Can Deliver Satisfactory Maize Yield Estimates.”</span> <em>Genetics</em>, November.
+</div>
+<div id="ref-Zancarini2024-wm" class="csl-entry" role="listitem">
+Zancarini, Anouk, Christine Le Signor, Sébastien Terrat, Julie Aubert, Christophe Salon, Nathalie Munier-Jolain, and Christophe Mougel. 2024. <span>“Medicago Truncatula Genotype Drives the Plant Nutritional Strategy and Its Associated Rhizosphere Bacterial Communities.”</span> <em>New Phytol.</em>, November.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -222,12 +307,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
     }
-  });
-  clipboard.on('success', function(e) {
+    return false;
+  }
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -259,11 +347,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/julieaubert\.github\.io\/myprowebsite\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -273,8 +398,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -286,9 +420,244 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -331,9 +700,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2022 Julie Aubert. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0.</div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2022 Julie Aubert. Except where otherwise noted, all text and images licensed CC-BY-NC 4.0.</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
+
 
 
 

@@ -1,1 +1,1 @@
-Sitemap: https://github.com/julieaubert/myprowebsite/sitemap.xml
+Sitemap: https://julieaubert.github.io/myprowebsite/sitemap.xml
