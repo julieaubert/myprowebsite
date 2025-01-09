@@ -2,6 +2,7 @@
 title: "Research"
 bibliography: main-mybiblio.bib
 bibliographystyle: apa
+sort-by: "year"
 ---
 
 I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application. 
