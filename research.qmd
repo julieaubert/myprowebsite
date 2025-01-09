@@ -1,5 +1,6 @@
 ---
 title: "Research"
+citeproc: true
 bibliography: main-mybiblio.bib
 bibliographystyle: apa
 sort-by: "year"
