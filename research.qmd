@@ -1,9 +1,8 @@
 ---
 title: "Research"
-citeproc: true
 bibliography: main-mybiblio.bib
 bibliographystyle: apa
-sort-by: "year"
+citation-order: ascending
 ---
 
 I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application. 
@@ -28,12 +27,32 @@ plant-microbial communities interactions - soil microbial communities - food mic
 ::: {#refs-main}
 :::
 
+### Some founded projects
+
+### [PEPR Maths Vives](https://www.insmi.cnrs.fr/fr/maths-vives): projet cible [**AgroStat**](https://www.insmi.cnrs.fr/en/node/2668) (2024-2028)
+**Statistics for the evolution and dynamics of populations and species of agronomic interest**          
+Leaders: Arnaud Estoup (INRAE) and Jean-Michel Marin (Université de Montpellier)    
+*keywords: Interdisciplinary, mathematical and statistical methods, artificial intelligence, machine learning, modelling, massive/heterogeneous data, global change, population biology, agrosystems, agroecology, ecosystems, biological invasions, epidemiology, biodiversity, control, monitoring*
+
+### EINACT - INRAE Métaprogramme - HOLOFLUX (2025- )
+**Efficacité, Impact et extension d’une Nouvelle Approche d’ingénierie écologique des CommunauTés microbiennes**    
+Coordinateur : A. Spor, UMR AgroEcologie, INRAE Dijon      
+Partenaires : UMR AgroEcologie (INRAE Dijon), UR Riverly (INRAE Lyon-Grenoble-Auvergne-Rhône-Alpes), Pathologie Végétale (INRAE PACA)   
+*keywords: Bioremédiation, Impact Ecologique, Multifonctionnalité, Relation Composition-Fonction, Croissance et santé de la plante*
+
 ### Some past funded projects
 
 #### ANR EcoNet
 
-EcoNet (2019-2023): Advanced statistical modelling of ecological networks (leader: C. Matias)
+EcoNet (2019-2023): **Advanced statistical modelling of ecological networks** (leader: C. Matias)   
+Partenaires : LPSM (Sorbonne Université), LBBE (Lyon), ISEM (Montpellier), IEES (Paris), Evo-Eco-Paléo (Lille) 
 
 #### ANR project NGB
 
-(2018--2022): Next Generation Biomonitoring of change in ecosystems structure and function (leader: D. Bohan)
+NGB (2018--2022): **Next Generation Biomonitoring of change in ecosystems structure and function** (leader: D. Bohan)
+
+#### DeepPhenomic - INRAE Métaprogramme - Digit-Bio
+
+DeepPhenomic (2022-2024) : **Améliorer les performances de sélection chez les bovins laitiers grâce à la sélection phénomique** (leaders :  P. Croiseau, UMR GABI, Jouy-en-Josas and T. Mary-Huard, UMR GQE, Le Moulon, UMR MIA-PS, Palaiseau)    
+Partenaires : UMR GABI (Jouy-en-Josas), UMR GQE (Le Moulon), UMR AGAP (Montpellier), Institut Elliance    
+*keywords: sélection phénomiques, sélection génomiques, deep learning, régression fonctionnelle*
