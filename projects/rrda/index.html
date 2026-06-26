@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>StateOftheR – Julie Aubert</title>
+<title>R package rda - Ridge Redundancy Analysis for High-Dimensional Omics Data – Julie Aubert</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +23,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -157,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">StateOftheR</h1>
+      <h1 class="title">R package rda - Ridge Redundancy Analysis for High-Dimensional Omics Data</h1>
                       </div>
   </div>
     
@@ -179,14 +198,8 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -195,14 +208,17 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p><a href="https://stateofther.netlify.app/">StateoftheR</a> is a network of researchers and engineers from the MathNum department who meet to deepen their know-how, improve the dissemination of their statistical methods and exchange on the latest innovations of R and RStudio.</p>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section"></h2>
+<p>Package developed with Tristan Mary-Huard and Hayato Yoshioka and available on <a href="https://forge.inrae.fr/mia-paris/rrda">INRAE GitLab forge</a> and <a href="https://cran.r-project.org/package=rrda">CRAN</a></p>
+<p>Efficient framework for ridge redundancy analysis (rrda), tailored for high-dimensional omics datasets where the number of predictors exceeds the number of samples. The method leverages Singular Value Decomposition (SVD) to avoid direct inversion of the covariance matrix, enhancing scalability and performance. It also introduces a memory-efficient storage strategy for coefficient matrices, enabling practical use in large-scale applications. The package supports cross-validation for selecting regularization parameters and reduced-rank dimensions, making it a robust and flexible tool for multivariate analysis in omics research. Please refer to our article <span class="citation" data-cites="Yoshioka2025rrda">Yoshioka et al. (<a href="#ref-Yoshioka2025rrda" role="doc-biblioref">2025</a>)</span> for more details.</p>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Les références</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Yoshioka2025rrda" class="csl-entry" role="listitem">
+Yoshioka, Hayato, Julie Aubert, Hiroyoshi Iwata, et Tristan Mary-Huard. 2025. <span>«&nbsp;Ridge Redundancy Analysis for High-Dimensional Omics Data&nbsp;»</span>. <em>bioRxiv</em>, publication en ligne anticipée. <a href="https://doi.org/10.1101/2025.04.16.649138">https://doi.org/10.1101/2025.04.16.649138</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
