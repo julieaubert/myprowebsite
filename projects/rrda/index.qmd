@@ -1,0 +1,13 @@
+---
+date: "2024-10-24T12:40:13-06:00"
+lang: fr
+title: R package rda - Ridge Redundancy Analysis for High-Dimensional Omics Data
+image: "rrda.png"
+bibliography: rrda.bib
+bibliographystyle: apa
+citation-order: ascending  
+---
+
+Package developed with Tristan Mary-Huard and Hayato Yoshioka and available on [INRAE GitLab forge](https://forge.inrae.fr/mia-paris/rrda) and [CRAN](https://cran.r-project.org/package=rrda)
+
+Efficient framework for ridge redundancy analysis (rrda), tailored for high-dimensional omics datasets where the number of predictors exceeds the number of samples. The method leverages Singular Value Decomposition (SVD) to avoid direct inversion of the covariance matrix, enhancing scalability and performance. It also introduces a memory-efficient storage strategy for coefficient matrices, enabling practical use in large-scale applications. The package supports cross-validation for selecting regularization parameters and reduced-rank dimensions, making it a robust and flexible tool for multivariate analysis in omics research. Please refer to our article @Yoshioka2025rrda for more details.

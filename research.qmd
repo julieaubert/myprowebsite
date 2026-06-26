@@ -5,47 +5,61 @@ bibliographystyle: apa
 citation-order: ascending
 ---
 
-I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application. 
+I am specialized in the development and application of statistical learning methods (latent variable models, multivariate analysis, sparse methods and regularization) for ecology and life sciences more particularly around omics data and microbial ecology application.
 
 ### Research topics and selected associated publications
 
--   **Latent variable models in particular for omics data**       [see @aubert2017; @aubert2021hal-03323318; @wang_variational_inference_for_2019_hal-02626026]        
-*keywords: Latent Block Models, Overdispersed Count Data, Coupled Hidden Markov-Model*
+- **Latent variable models in particular for omics data** [see @aubert2017; @aubert2021hal-03323318; @wang_variational_inference_for_2019_hal-02626026]\
+  *keywords: Latent Block Models, Overdispersed Count Data, Coupled Hidden Markov-Model*
 
--   **Applications in microbial ecology**  
-plant-microbial communities interactions - soil microbial communities - food microbial communities
-[see @lejal_temporal_patterns_in_2021_hal-03287263; @romdhane_unraveling_negative_biotic_2022_hal-03604836; @Thieffry2024-hq; @Lecomte2024-tb; @Zancarini2024-wm]       
-*keywords: multivariate analysis, count data, co-occurrences network inference, machine learning, metabarcoding*
+- **Applications in microbial ecology**\
+  plant-microbial communities interactions - soil microbial communities - food microbial communities [see @lejal_temporal_patterns_in_2021_hal-03287263; @romdhane_unraveling_negative_biotic_2022_hal-03604836; @Thieffry2024-hq; @Lecomte2024-tb; @Zancarini2024-wm; @fournier2025]\
+  *keywords: multivariate analysis, count data, co-occurrences network inference, machine learning, metabarcoding*
 
--   **Statistical methods for analyzing transcriptomics data**        [see @dillies_a_comprehensive_evaluation_2012_hal-00782486; @mary-huard2008; @magniette_normalization_for_tripletarget_2008_hal-01197566; @chasse_translatome_analysis_at_2018_hal-01803500; @cao_finetuning_of_process_2021_hal-03313075; @aubert_determination_of_the_2004_hal-01208107]              
-*keywords: normalization, false discovery rate control, experimental design, sea-urchin traductome, cheese metatranscriptome*
+- **Statistical methods for analyzing transcriptomics data** [see @dillies_a_comprehensive_evaluation_2012_hal-00782486; @mary-huard2008; @magniette_normalization_for_tripletarget_2008_hal-01197566; @chasse_translatome_analysis_at_2018_hal-01803500; @cao_finetuning_of_process_2021_hal-03313075; @aubert_determination_of_the_2004_hal-01208107]\
+  *keywords: normalization, false discovery rate control, experimental design, sea-urchin traductome, cheese metatranscriptome*
 
--   **GenexEnvironment prediction**       [see @Washburn2024-qq]       
-*keywords: machine learning, reproducibility, competition* 
-
+- **GenexEnvironment prediction** [see @Washburn2024-qq]\
+  *keywords: machine learning, reproducibility, competition*
 
 ::: {#refs-main}
 :::
 
 ### Some founded projects
 
-### [PEPR Maths Vives](https://www.insmi.cnrs.fr/fr/maths-vives): projet cible [**AgroStat**](https://www.insmi.cnrs.fr/en/node/2668) (2024-2028)
-**Statistics for the evolution and dynamics of populations and species of agronomic interest**          
-Leaders: Arnaud Estoup (INRAE) and Jean-Michel Marin (Université de Montpellier)    
+#### [PEPR Maths Vives](https://www.insmi.cnrs.fr/fr/maths-vives): projet cible [**AgroStat**](https://www.insmi.cnrs.fr/en/node/2668) (2024-2028)
+
+**Statistics for the evolution and dynamics of populations and species of agronomic interest**\
+Leaders: Arnaud Estoup (INRAE) and Jean-Michel Marin (Université de Montpellier)\
 *keywords: Interdisciplinary, mathematical and statistical methods, artificial intelligence, machine learning, modelling, massive/heterogeneous data, global change, population biology, agrosystems, agroecology, ecosystems, biological invasions, epidemiology, biodiversity, control, monitoring*
 
-### EINACT - INRAE Métaprogramme - HOLOFLUX (2025- )
-**Efficacité, Impact et extension d’une Nouvelle Approche d’ingénierie écologique des CommunauTés microbiennes**    
-Coordinateur : A. Spor, UMR AgroEcologie, INRAE Dijon      
-Partenaires : UMR AgroEcologie (INRAE Dijon), UR Riverly (INRAE Lyon-Grenoble-Auvergne-Rhône-Alpes), Pathologie Végétale (INRAE PACA)   
+#### HOLOPRO - Flagship project INRAE Métaprogramme - HOLOFLUX (2026 - 2029)
+ 
+**LEGacy of long-term Organic fertilisation Strategies: microbial dynamics as drivers of ecosystem services**
+
+Coordinateur : P. Piveteau (UR OPAALE, INRAE Rennes)
+Partenaires : UMR Agroécologie, UMR ECOSYS, UMR IJPB, UMR LIPME, GENOSOL, SMART
+
+*Keywords: Nexus organic fertiliser/soil/plant/environment; Ecosystem services; long term impacts; microbial fluxes; microbial engineering*
+
+#### MYCOMIX - BioSphera (2024 - 2027)   
+
+**Les associations variétales influencent-elles la composition et la structure des communautés fongiques de la phyllosphère et de la résidusphère ?**
+Partenaires : UR BIOGER (INRAE Versailles-Saclay), Valérie Laval, Frédérique Suffert, Angélique Gautier
+
+#### EINACT - INRAE Métaprogramme - HOLOFLUX (2025- )
+
+**Efficacité, Impact et extension d’une Nouvelle Approche d’ingénierie écologique des CommunauTés microbiennes**\
+Coordinateur : A. Spor, UMR AgroEcologie, INRAE Dijon\
+Partenaires : UMR AgroEcologie (INRAE Dijon), UR Riverly (INRAE Lyon-Grenoble-Auvergne-Rhône-Alpes), Pathologie Végétale (INRAE PACA)\
 *keywords: Bioremédiation, Impact Ecologique, Multifonctionnalité, Relation Composition-Fonction, Croissance et santé de la plante*
 
 ### Some past funded projects
 
 #### ANR EcoNet
 
-EcoNet (2019-2023): **Advanced statistical modelling of ecological networks** (leader: C. Matias)   
-Partenaires : LPSM (Sorbonne Université), LBBE (Lyon), ISEM (Montpellier), IEES (Paris), Evo-Eco-Paléo (Lille) 
+EcoNet (2019-2023): **Advanced statistical modelling of ecological networks** (leader: C. Matias)\
+Partenaires : LPSM (Sorbonne Université), LBBE (Lyon), ISEM (Montpellier), IEES (Paris), Evo-Eco-Paléo (Lille)
 
 #### ANR project NGB
 
@@ -53,6 +67,6 @@ NGB (2018--2022): **Next Generation Biomonitoring of change in ecosystems struct
 
 #### DeepPhenomic - INRAE Métaprogramme - Digit-Bio
 
-DeepPhenomic (2022-2024) : **Améliorer les performances de sélection chez les bovins laitiers grâce à la sélection phénomique** (leaders :  P. Croiseau, UMR GABI, Jouy-en-Josas and T. Mary-Huard, UMR GQE, Le Moulon, UMR MIA-PS, Palaiseau)    
-Partenaires : UMR GABI (Jouy-en-Josas), UMR GQE (Le Moulon), UMR AGAP (Montpellier), Institut Elliance    
+DeepPhenomic (2022-2024) : **Améliorer les performances de sélection chez les bovins laitiers grâce à la sélection phénomique** (leaders : P. Croiseau, UMR GABI, Jouy-en-Josas and T. Mary-Huard, UMR GQE, Le Moulon, UMR MIA-PS, Palaiseau)\
+Partenaires : UMR GABI (Jouy-en-Josas), UMR GQE (Le Moulon), UMR AGAP (Montpellier), Institut Elliance\
 *keywords: sélection phénomiques, sélection génomiques, deep learning, régression fonctionnelle*

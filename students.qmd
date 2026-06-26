@@ -1,0 +1,45 @@
+---
+title: "Students"
+editor: visual
+---
+
+## PhD students
+
+- [Louis Lacoste](https://polarolouis.fr/) (2024 -), Comparaison de structures de réseaux. Applications à des réseaux écologiques, co-advised with Sophie Donnet and Pierre Barbillon
+
+- Néhémia Bacqué (2025 - ), Approches statistiques pour l'étude et la prédiction la vulnérabilité génomique des populations et des espèces, co-advised with Tristan Mary-Huard
+
+- Sylvia Thieffry (2022 - 2025), Introgression de capacités de biodégradation microbienne de xénobiotiques dans des sols et des sédiments pollués : transfert des méthodes et outils utilisés en sélection génomique, co-advised with Aymé Spor and Mathieu Siol
+
+- [Hayato Yoshioka](https://sites.google.com/view/hayato-john-yoshioka/home) (2022 - 2026), co-advised with Tristan Mary-Huard
+
+- Frédéric Fer (2011 - 2015) (Ecostab, MétaProgramme Métaomiques et écosystèmes microbiens), co-advised with Jean-Michel Beckerich, now Biostatistian, Institut de Myologie (Paris)
+
+## Post-doc student or engineer 
+
+- 2025 - 2026 Elizaveta Klockenbring, co-advised with Ayme Spor et Nicolas Jouvin
+- 2015 - 2016 Xiao Wang (ANR CNV-MAIZE), co-advised with Emilie Lebarbier and Stéphane Robin
+- Cyrille Correia, co-advised with Jean-Jacques Daudin
+- Carine Bigot, co-advised with Jean-Jacques Daudin
+- 2011 - 2012, [Aurélie Teissandier](https://curie.fr/personne/aurelie-teissandier) (ANR ExEco), now research engineer, Institut Curie (Paris)
+
+
+## Master student
+
+- 2026 : Naima Redouan (M2), co-advised with Valérie Laval, Frédéric Suffert and Angélique
+- 2026 : Férès Tabib (2A AgroParisTech), co-advised with Tristan Mary-Huard and Hugo Gangloff
+- 2025-2026 : Emilie Galland (M1 + alternance M2) co-advised with Barbara Pivato
+- 2025 : Fanny Masschelein (M2) co-advised with Tristan Mary-Huard
+- 2024 : Julien Brablé (DeepPhenomics, DIGIT-Bio MP) (M1), co-advised with Tristan Mary-Huard and Hugo Gangloff
+- 2024 : Martin Amiens, *Analyse bibliographique par HAL* (DRITT Sciences Ouvertes) (M1 BIBS), co-advised with Pierre Barbillon
+- 2023 : Do Dat Le (DeepPhenomics, DIGIT-Bio MP) (M2), co-advised with Tristan Mary-Huard and Hugo Gangloff
+- 2021 : Armand Favrot (M2), co-advised with Sophie Donnet and Julien Chiquet
+- 2020 : Solenn Lefur, *Analyse statistique de l'expression des gènes exprimés par les micro-
+organismes au cours des procédés de fabrication et d'affinage de fromage* (TANGO project) (2A Centrale Nantes)
+- 2020 : Adrien Thomas (La Recherche Et Moi AgroParisTech), co-advised with Sarah Ouadah
+- 2013 : Trung Ha (M2), co-advised with Tristan Mary-Huard
+- Oriane Bagland (M2), now teacher in mathematics
+
+
+
+
